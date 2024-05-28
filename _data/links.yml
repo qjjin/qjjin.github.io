@@ -3,7 +3,7 @@ icon-position: left # Set to left/right
 buttons:
   - category: Works
     items:
-    - title: 정리
+    - title: 이모저모
       url: https://qjjin.github.io/qjjin_2/
       icon: ion:flower-sharp
       tag: New
