@@ -2,9 +2,9 @@
 theme: linkhub-jekyll-theme
 
 # Site Configuration
-name: Linkhub  # Name of your website
+name: 놀고먹는 대학원생 이야기  # Name of your website
 tagline: Links  # Set your preferred page title
-description: A free, open-source Jekyll link-in-bio theme.  # Also used as a meta description
+description: 나 혼자 끄적이는 생물정보학  # Also used as a meta description
 favicon:
   path: https://i.ibb.co/SBRmBmt/favicon.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
   type: png # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
