@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% if site.ga4 != null %}
+    {% include ga4.html %}
+    {% endif %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.tagline }} - {{ site.name }}</title>
+    <link rel="shortcut icon" href="{{ site.favicon.path }}" type="image/{{ site.favicon.type }}">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:locale" content="{{ site.locale }}" />
+    <meta property="og:image" content="{{ site.url }}/{{ site.image.path }}" />
+    <meta property="og:image:type" content="image/{{ site.image.type }}" />
+    <meta property="og:image:width" content="{{ site.image.width }}">
+    <meta property="og:image:height" content="{{ site.image.height }}">
+    <meta property="og:image:alt" content="{{ site.image.alt }}">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.twitter.username }}" />
+    <meta name="twitter:title" content="{{ site.name }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:image" content="{{ site.url }}/{{ site.image.path }}" />
+</head>
+
+<body>
+    <div class="container is-full-screen">
+        <header>
+            <div class="top is-center is-vertical-align">
+                <img class="is-rounded" width="75px" height="75px" src="{{ site.logo }}" alt="logo">
+                <h1 class="text-center">{{ site.name }}{% if site.badge.enable == true %}<span class="iconify-inline badge"
+                        data-icon="{{ site.badge.icon }}" style="color: {{ site.badge.color }}"></span>{% endif %}</h1>
+                <p class="text-center">{{ site.description }}</p>
+            </div>
+        </header>
+
+        <!-- Dark / Light Mode Switch -->
+        {% include theme-switch.html %}
+
+        <!-- Social Media Links -->
+        {% include social.html %}
+
+        <!-- Insta/TikTok/YouTube Link-in-bio -->
+        {% include bio.html %}
+
+        <!-- Link Buttons -->
+        {% include links.html %}
+
+        {% include footer.html %}
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
