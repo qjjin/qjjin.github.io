@@ -12,3 +12,8 @@
   url: https://www.youtube.com/
   icon: ri:youtube-fill
   color: '#FF0000'
+
+- name: email
+  url: gj.lee@seoulin.co.kr
+  icon: mdi:email
+  color: '#1388D3'
