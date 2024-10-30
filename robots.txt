@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qjjin.github.io/qjjin_2/
