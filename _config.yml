@@ -9,7 +9,7 @@ favicon:
   path: https://i.ibb.co/SBRmBmt/favicon.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
   type: png # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
 logo: https://picsum.photos/200.webp # Path / URL to the logo (e.g., 'assets/images/logo.png')
-url: https://link.example.com # URL of your website
+url: https://qjjin.github.io # URL of your website
 locale: en_GB # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
 ga4: # Google Analytics 4 measurement ID, for e.g. G-XXXXXXX (optional). Remove it if it’s not needed.
 twitter:
@@ -37,3 +37,7 @@ defaults:
 
 # Exclude
 exclude: [README.md, Gemfile.lock, .jekyll-cache/, .github/, CHANGELOG.md, Gemfile, LICENSE.txt, funding.yml, linkhub-jekyll-theme.gemspec]
+
+#plugins
+plugins:
+  - jekyll-sitemap
